@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://bp1ka3rhqwxxr"]
+
+[ext_resource type="Material" uid="uid://bgwdtl3vi5uyo" path="res://materials/gun/MM_Bullet.tres" id="1_5gm58"]
+[ext_resource type="Script" uid="uid://ca22ndbn7l500" path="res://scripts/gun/bullet.gd" id="1_b1i21"]
+[ext_resource type="Material" uid="uid://bo7yff3g63cus" path="res://materials/gun/MM_Bullet_Particle.tres" id="3_jpj2q"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wiiub"]
+material = ExtResource("1_5gm58")
+size = Vector3(0.05, 0.05, 1)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_jpj2q"]
+angular_velocity_min = -134.53001
+angular_velocity_max = 182.97998
+orbit_velocity_min = 3.0000002
+orbit_velocity_max = 5.0000005
+radial_velocity_min = 2.9999776
+radial_velocity_max = 4.9999776
+
+[sub_resource type="BoxMesh" id="BoxMesh_b1i21"]
+material = ExtResource("3_jpj2q")
+size = Vector3(0.02, 0.02, 0.02)
+
+[node name="Bullet" type="Node3D"]
+script = ExtResource("1_b1i21")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_wiiub")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+target_position = Vector3(0, 0, -1)
+collision_mask = 2
+collide_with_areas = true
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0143316)
+emitting = false
+amount = 16
+one_shot = true
+explosiveness = 1.0
+fixed_fps = 60
+collision_base_size = 0.0
+process_material = SubResource("ParticleProcessMaterial_jpj2q")
+draw_pass_1 = SubResource("BoxMesh_b1i21")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

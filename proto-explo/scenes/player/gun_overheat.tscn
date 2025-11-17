@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cillyfp0kntm5"]
+
+[ext_resource type="Script" uid="uid://c7nc6814eu78n" path="res://scripts/player/gun_overheat.gd" id="1_wrjgs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_407r7"]
+bg_color = Color(0.18039216, 0.18039216, 0.18039216, 0.5568628)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wrjgs"]
+bg_color = Color(0.2016092, 0.67453, 0.7019475, 1)
+
+[node name="GunOverheat" type="ProgressBar"]
+custom_minimum_size = Vector2(240, 4)
+offset_right = 240.0
+offset_bottom = 4.0
+theme_override_styles/background = SubResource("StyleBoxFlat_407r7")
+theme_override_styles/fill = SubResource("StyleBoxFlat_wrjgs")
+value = 60.0
+rounded = true
+show_percentage = false
+script = ExtResource("1_wrjgs")

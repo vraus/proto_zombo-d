@@ -1,0 +1,92 @@
+[gd_scene load_steps=6 format=3 uid="uid://btvieg5sgg7cv"]
+
+[ext_resource type="Script" uid="uid://db7py2mhyapiy" path="res://scripts/player/alert_reload.gd" id="1_r1tof"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_j18gu"]
+font_size = 31
+font_color = Color(0.2, 0.6745098, 0.7019608, 1)
+
+[sub_resource type="Animation" id="Animation_r1tof"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(1.5, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(1.5, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_j18gu"]
+resource_name = "alert_reload"
+length = 0.9
+loop_mode = 1
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 2, 2),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1.5, -0.083333336, -0.083333336, 0, 0, 1, -0.06666666, 0.083333336, 0, 0),
+"times": PackedFloat32Array(0, 0.5, 0.9)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 2, 2),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1.5, -0.083333336, -0.083333336, 0, 0, 1, -0.06666666, 0.083333336, 0, 0),
+"times": PackedFloat32Array(0, 0.5, 0.9)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_r1tof"]
+_data = {
+&"RESET": SubResource("Animation_r1tof"),
+&"alert_reload": SubResource("Animation_j18gu")
+}
+
+[node name="AlertReload" type="Label"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -22.0
+offset_right = 10.0
+offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.5, 1.5)
+pivot_offset = Vector2(10, 22)
+size_flags_horizontal = 4
+size_flags_stretch_ratio = 11.11
+text = "R"
+label_settings = SubResource("LabelSettings_j18gu")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_r1tof")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_r1tof")
+}
