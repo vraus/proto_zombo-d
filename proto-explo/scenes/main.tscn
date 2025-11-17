@@ -39,7 +39,6 @@ shadow_color = Color(0, 0, 0, 1)
 font_size = 64
 
 [node name="world" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3, -1.75, -3.75)
 script = ExtResource("1_o6xl0")
 
 [node name="map" type="Node3D" parent="."]

@@ -71,7 +71,7 @@ func _input(event: InputEvent) -> void:
 	_aim_input = Input.is_action_pressed("right_click")
 	_shoot_input = Input.is_action_pressed("left_click")
 	
-	if Input.is_action_just_pressed("reload"):
+	if Input.is_action_pressed("reload"):
 		gun_overheat.reload()
 		alert_reload.visible = false
 
