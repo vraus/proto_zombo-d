@@ -54,6 +54,10 @@ var bullet_instance
 @onready var aim_ray: RayCast3D = %AimRay
 @onready var aim_mesh: MeshInstance3D = %AimMesh
 @onready var aim_look_at: LookAtModifier3D = $player/Armature/Skeleton3D/LookAtModifier3D
+# AudioKinetic
+@onready var ak_event_shoot: AkEvent3D = $AkBank/AkEvent_Shoot
+@onready var ak_event_run: AkEvent3D = $AkBank/AkEvent_Run
+@onready var ak_event_walk: AkEvent3D = $AkBank/AkEvent_Walk
 
 func _ready():
 	GameManager.set_player(self)
@@ -159,6 +163,7 @@ func shoot():
 		return
 		
 	gun_animation.play("shoot")
+	ak_event_shoot.post_event()
 	bullet_instance = bullet.instantiate()
 	bullet_instance.position = ray_cast_3d.global_position
 	bullet_instance.transform.basis = ray_cast_3d.global_transform.basis
@@ -217,3 +222,11 @@ func apply_shake(dam):
 	
 func random_offset() -> float:
 	return rnd.randf_range(-shake_strength, shake_strength)
+
+# AudioKinetic Functions
+
+func play_walk_akevent():
+	ak_event_walk.post_event()
+	
+func play_run_akevent():
+	ak_event_run.post_event()

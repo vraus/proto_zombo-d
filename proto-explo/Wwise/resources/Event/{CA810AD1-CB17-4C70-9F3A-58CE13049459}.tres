@@ -1,0 +1,8 @@
+[gd_resource type="WwiseEvent" format=3 uid="uid://b5o0nfm8frakm"]
+
+[resource]
+is_in_user_defined_sound_bank = true
+name = "Walk"
+id = 2108779966
+guid = "{CA810AD1-CB17-4C70-9F3A-58CE13049459}"
+dummy = true

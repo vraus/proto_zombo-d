@@ -1,0 +1,245 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{A76EB97B-BA9A-4B35-B4C7-A85D6725898F}",
+    "Language": "SFX",
+    "Hash": "{84D19630-1E5C-428E-9B60-37691EF99DBC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "78878147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "B0/{B0B656AD-D427-1EE5-5E0D-9D2132B9F1A2}.wem"
+     },
+     {
+      "Id": "168304149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SCIWeap_Magnetic Rifle, Single Shot, Med Reverb 2_Ocular Sounds_Futuristic Weapons_The Complete Sci-Fi Collection.wav",
+      "CachePath": "73/{7337B0B3-92BA-0425-36C6-2ABBAD97BB89}.wem"
+     },
+     {
+      "Id": "219543623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "D1/{D1B701F6-2FFD-80AC-4FBB-D17534E2AFA9}.wem"
+     },
+     {
+      "Id": "255128378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "CD/{CDB34D71-9C7E-ECFE-5D7C-AD4C5A8A7BBC}.wem"
+     },
+     {
+      "Id": "316401589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "47/{4771BDDD-F4F9-4B2F-F00D-0F7CA997ED9C}.wem"
+     },
+     {
+      "Id": "383089324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "46/{46E42684-75DE-B55F-5FD2-112733CD0796}.wem"
+     },
+     {
+      "Id": "427544155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "BF/{BF59BF49-4F03-C73B-7740-055F21C065FF}.wem"
+     },
+     {
+      "Id": "456142260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "C0/{C0CB0149-CD0D-1E54-754B-2C8878BCBAE2}.wem"
+     },
+     {
+      "Id": "488133866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "88/{88F72E3F-3EAF-4D50-E687-4938E10AA2D1}.wem"
+     },
+     {
+      "Id": "667604109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "14/{142FBF14-40B9-3BBF-5B83-9B9623B8FA26}.wem"
+     },
+     {
+      "Id": "677720737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "A6/{A62627BE-8F1D-1CE3-DA27-878572DA65FE}.wem"
+     },
+     {
+      "Id": "698008079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "F7/{F7B719DD-A577-9EF6-9C5C-DB45A25BEDFF}.wem"
+     },
+     {
+      "Id": "706974900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "88/{88F01C29-3F92-EEC6-9F63-D26970CE1985}.wem"
+     },
+     {
+      "Id": "732817891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "3D/{3DA1FC37-384A-B018-28A0-126940ADA577}.wem"
+     },
+     {
+      "Id": "872320720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "12/{122A7A8F-B7F9-146D-8243-188F9736665D}.wem"
+     },
+     {
+      "Id": "976231083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "B8/{B81FD09A-6D43-569A-2A2E-2584031475F0}.wem"
+     },
+     {
+      "Id": "984306832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOLYFeet_Footsteps Sneakers Run Concrete Close Up_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
+      "CachePath": "DB/{DB83FF83-C4AE-881D-7F1E-93DA3D7C115A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "712161704",
+      "Name": "Run",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Run",
+      "GUID": "{60412B89-EA9F-41C1-B9DD-3927284B0FA1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.09223683",
+      "DurationMax": "0.30691713",
+      "MediaRefs": [
+       {
+        "Id": "427544155"
+       },
+       {
+        "Id": "456142260"
+       },
+       {
+        "Id": "488133866"
+       },
+       {
+        "Id": "667604109"
+       },
+       {
+        "Id": "698008079"
+       },
+       {
+        "Id": "706974900"
+       },
+       {
+        "Id": "976231083"
+       },
+       {
+        "Id": "984306832"
+       }
+      ]
+     },
+     {
+      "Id": "3038207054",
+      "Name": "Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shoot",
+      "GUID": "{BEC40016-14BD-4548-BF68-CF000369207E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2120527",
+      "DurationMax": "1.284125",
+      "MediaRefs": [
+       {
+        "Id": "168304149"
+       }
+      ]
+     },
+     {
+      "Id": "2108779966",
+      "Name": "Walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walk",
+      "GUID": "{CA810AD1-CB17-4C70-9F3A-58CE13049459}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1926364",
+      "DurationMax": "0.32232147",
+      "MediaRefs": [
+       {
+        "Id": "78878147"
+       },
+       {
+        "Id": "219543623"
+       },
+       {
+        "Id": "255128378"
+       },
+       {
+        "Id": "316401589"
+       },
+       {
+        "Id": "383089324"
+       },
+       {
+        "Id": "677720737"
+       },
+       {
+        "Id": "732817891"
+       },
+       {
+        "Id": "872320720"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B534BF0A-C2D5-3C57-2C52-1DC4DCD6E9E9}"
+ }
+}

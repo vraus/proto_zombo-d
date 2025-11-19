@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "proto_zomboid",
+   "GUID": "{DFF39D0D-22AF-482C-8889-073E45A99F63}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "D:/Projects/Wwise/proto_zomboid/.cache",
+  "Platforms": [
+   {
+	"Name": "Windows",
+	"GUID": "{06F4C631-A601-4D7C-97E3-5E853E36C9D6}",
+	"BasePlatform": "Windows",
+	"BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+	"Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+	"Name": "English(US)",
+	"Id": "684519430",
+	"GUID": "{496A6220-B10A-4902-B157-97B10CA58DDA}",
+	"Default": "true",
+	"UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{4A6ADD0E-D5D9-5499-BC1C-F3E5C1B3B352}"
+ }
+}

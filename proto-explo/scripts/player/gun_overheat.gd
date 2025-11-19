@@ -31,5 +31,4 @@ func can_shoot() -> bool:
 	return _can_shoot && !_can_cooldown
 	
 func reload() -> void:
-	print("RELOAD CALLED")
 	_can_cooldown = true
