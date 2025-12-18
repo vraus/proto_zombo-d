@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID EMPTYSHOT = 2294686388U;
+        static const AkUniqueID OVERHEATING = 4048013415U;
         static const AkUniqueID RUN = 712161704U;
         static const AkUniqueID SHOOT = 3038207054U;
         static const AkUniqueID WALK = 2108779966U;
@@ -26,6 +28,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID EFFECTS_AUDIO_BUS = 276964149U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

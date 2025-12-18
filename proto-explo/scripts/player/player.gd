@@ -34,6 +34,7 @@ signal player_hit
 # Bullets
 var bullet = load("res://scenes/gun/bullet.tscn")
 var bullet_instance
+var can_play_empty_sound = true
 
 # UI
 @onready var health_bar: ProgressBar = $Player_UI/HealthBar
@@ -58,6 +59,8 @@ var bullet_instance
 @onready var ak_event_shoot: AkEvent3D = $AkBank/AkEvent_Shoot
 @onready var ak_event_run: AkEvent3D = $AkBank/AkEvent_Run
 @onready var ak_event_walk: AkEvent3D = $AkBank/AkEvent_Walk
+@onready var ak_event_overheating: AkEvent3D = $AkBank/AkEvent_Overheating
+@onready var ak_event_empty_shot: AkEvent3D = $AkBank/AkEvent_EmptyShot
 
 func _ready():
 	GameManager.set_player(self)
@@ -145,6 +148,10 @@ func _physics_process(delta: float) -> void:
 	# Detect whenever the player input to aim
 	if _aim_input && _shoot_input && gun_overheat.can_shoot():
 		shoot()
+	elif _aim_input && _shoot_input && !gun_overheat.can_shoot():
+		if can_play_empty_sound:
+			play_emptyshot_akevent()
+			can_play_empty_sound = false
 
 func update_anim_tree():
 	var is_moving = velocity.length()
@@ -173,6 +180,9 @@ func shoot():
 	
 	if gun_overheat.value >= 90.0:
 		alert_reload.visible = true
+		
+	if gun_overheat.value == 100.0:
+		play_overheating_akevent()
 		
 func check_aim_ray_hit():
 	if aim_ray.is_colliding():
@@ -230,3 +240,11 @@ func play_walk_akevent():
 	
 func play_run_akevent():
 	ak_event_run.post_event()
+	
+func play_overheating_akevent():
+	ak_event_overheating.post_event()
+	
+func play_emptyshot_akevent():
+	ak_event_empty_shot.post_event()
+	await get_tree().create_timer(0.2).timeout
+	can_play_empty_sound = true

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4048013415",
+    "Type": "Event",
+    "GUID": "{0D1A16DE-FE9D-4C4B-832D-0C5DA8B62E76}",
+    "Language": "SFX",
+    "Hash": "{58D8DAB8-5E35-7DD7-7B73-34428859630F}",
+    "ObjectPath": "Overheating",
+    "ShortName": "Overheating",
+    "Path": "Event/Overheating.bnk",
+    "Media": [
+     {
+      "Id": "356849037",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "electricity-106510.wav",
+      "Path": "Media/356849037.wem",
+      "CachePath": "57/{57E8A897-41D2-EB47-0F61-3C68DA7D4B31}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4048013415",
+      "Name": "Overheating",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Overheating",
+      "GUID": "{0D1A16DE-FE9D-4C4B-832D-0C5DA8B62E76}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6",
+      "DurationMax": "0.6",
+      "MediaRefs": [
+       {
+        "Id": "356849037"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F7B76A4-9FBC-4FE4-DB53-E9424B162ABD}"
+ }
+}

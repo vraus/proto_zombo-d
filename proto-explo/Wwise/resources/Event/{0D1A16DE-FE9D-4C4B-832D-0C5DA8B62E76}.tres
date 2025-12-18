@@ -1,0 +1,7 @@
+[gd_resource type="WwiseEvent" format=3 uid="uid://di87wkh12v5rd"]
+
+[resource]
+name = "Overheating"
+id = 4048013415
+guid = "{0D1A16DE-FE9D-4C4B-832D-0C5DA8B62E76}"
+dummy = true

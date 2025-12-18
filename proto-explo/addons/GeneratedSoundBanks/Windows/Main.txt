@@ -4,21 +4,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	3038207054	Shoot			\Default Work Unit\Player\Shoot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	78878147	footstep_concrete_3	D:\Projects\Wwise\proto_zomboid\.cache\B0\{B0B656AD-D427-1EE5-5E0D-9D2132B9F1A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_3		23924
+	78878147	footstep_concrete_3	D:\Projects\Wwise\proto_zomboid\.cache\15\{153051EE-077D-79E1-D6B2-AAF8D3CDE6A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_3		23924
 	168304149	scifi_laser_shoot	D:\Projects\Wwise\proto_zomboid\.cache\73\{7337B0B3-92BA-0425-36C6-2ABBAD97BB89}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\scifi_laser_shoot		272084
-	219543623	footstep_concrete_6	D:\Projects\Wwise\proto_zomboid\.cache\D1\{D1B701F6-2FFD-80AC-4FBB-D17534E2AFA9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_6		20370
-	255128378	footstep_concrete_4	D:\Projects\Wwise\proto_zomboid\.cache\CD\{CDB34D71-9C7E-ECFE-5D7C-AD4C5A8A7BBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_4		23732
-	316401589	footstep_concrete_1	D:\Projects\Wwise\proto_zomboid\.cache\47\{4771BDDD-F4F9-4B2F-F00D-0F7CA997ED9C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_1		19688
-	383089324	footstep_concrete_7	D:\Projects\Wwise\proto_zomboid\.cache\46\{46E42684-75DE-B55F-5FD2-112733CD0796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_7		20228
-	427544155	run_concrete_08	D:\Projects\Wwise\proto_zomboid\.cache\BF\{BF59BF49-4F03-C73B-7740-055F21C065FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_08		19216
-	456142260	run_concrete_03	D:\Projects\Wwise\proto_zomboid\.cache\C0\{C0CB0149-CD0D-1E54-754B-2C8878BCBAE2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_03		12124
-	488133866	run_concrete_06	D:\Projects\Wwise\proto_zomboid\.cache\88\{88F72E3F-3EAF-4D50-E687-4938E10AA2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_06		17726
-	667604109	run_concrete_02	D:\Projects\Wwise\proto_zomboid\.cache\14\{142FBF14-40B9-3BBF-5B83-9B9623B8FA26}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_02		27906
-	677720737	footstep_concrete_2	D:\Projects\Wwise\proto_zomboid\.cache\A6\{A62627BE-8F1D-1CE3-DA27-878572DA65FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_2		29302
-	698008079	run_concrete_05	D:\Projects\Wwise\proto_zomboid\.cache\F7\{F7B719DD-A577-9EF6-9C5C-DB45A25BEDFF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_05		20518
-	706974900	run_concrete_07	D:\Projects\Wwise\proto_zomboid\.cache\88\{88F01C29-3F92-EEC6-9F63-D26970CE1985}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_07		17370
-	732817891	footstep_concrete_8	D:\Projects\Wwise\proto_zomboid\.cache\3D\{3DA1FC37-384A-B018-28A0-126940ADA577}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_8		20952
-	872320720	footstep_concrete_5	D:\Projects\Wwise\proto_zomboid\.cache\12\{122A7A8F-B7F9-146D-8243-188F9736665D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_5		22842
-	976231083	run_concrete_01	D:\Projects\Wwise\proto_zomboid\.cache\B8\{B81FD09A-6D43-569A-2A2E-2584031475F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_01		9476
-	984306832	run_concrete_04	D:\Projects\Wwise\proto_zomboid\.cache\DB\{DB83FF83-C4AE-881D-7F1E-93DA3D7C115A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_04		19178
+	219543623	footstep_concrete_6	D:\Projects\Wwise\proto_zomboid\.cache\44\{44EE6BC8-5B83-1D98-2635-B8638690C644}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_6		20370
+	255128378	footstep_concrete_4	D:\Projects\Wwise\proto_zomboid\.cache\EA\{EA405CC0-29BA-CE4E-FD4F-EF87E082C0E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_4		23732
+	316401589	footstep_concrete_1	D:\Projects\Wwise\proto_zomboid\.cache\59\{59ED6995-6E43-840D-8849-7F9B8157BCCD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_1		19688
+	383089324	footstep_concrete_7	D:\Projects\Wwise\proto_zomboid\.cache\4D\{4D248079-432C-0AFE-3D1F-EAF28D092B05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_7		20228
+	427544155	run_concrete_08	D:\Projects\Wwise\proto_zomboid\.cache\D8\{D8625048-E67C-B25B-4809-9DC8938014CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_08		19216
+	456142260	run_concrete_03	D:\Projects\Wwise\proto_zomboid\.cache\B1\{B1682976-AC3F-D5DC-A169-4D5B8659C52C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_03		12124
+	488133866	run_concrete_06	D:\Projects\Wwise\proto_zomboid\.cache\97\{97B35892-4887-69CC-4847-1C1B964BD57F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_06		17726
+	667604109	run_concrete_02	D:\Projects\Wwise\proto_zomboid\.cache\1A\{1A1D94DC-D820-A5BE-B835-3DEC6A5C25BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_02		27906
+	677720737	footstep_concrete_2	D:\Projects\Wwise\proto_zomboid\.cache\C7\{C7EA12A8-0335-7D88-892C-51F3455D8530}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_2		29302
+	698008079	run_concrete_05	D:\Projects\Wwise\proto_zomboid\.cache\39\{3984E036-D295-D142-5F21-C774FBD3EFA8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_05		20518
+	706974900	run_concrete_07	D:\Projects\Wwise\proto_zomboid\.cache\57\{57807734-C294-C87C-5F1D-25FFFBE2FA78}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_07		17370
+	732817891	footstep_concrete_8	D:\Projects\Wwise\proto_zomboid\.cache\04\{0447387C-5F6E-260F-1FD8-F591729174B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_8		20952
+	872320720	footstep_concrete_5	D:\Projects\Wwise\proto_zomboid\.cache\28\{28492717-FB27-52F1-EFA2-CA0D2404675B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_5		22842
+	976231083	run_concrete_01	D:\Projects\Wwise\proto_zomboid\.cache\88\{884CA4CA-B27F-F680-2A51-123657B51292}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_01		9476
+	984306832	run_concrete_04	D:\Projects\Wwise\proto_zomboid\.cache\A4\{A48285CD-34D4-F86E-BEEC-E125ACDE0CC8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Running_Random_Footstep\run_concrete_04		19178
 

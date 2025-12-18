@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2294686388",
+    "Type": "Event",
+    "GUID": "{A749FE13-7410-4F6E-B3BA-5D2239F44B17}",
+    "Language": "SFX",
+    "Hash": "{7C0F15C9-219A-108C-99AA-58010473DD3B}",
+    "ObjectPath": "Emptyshot",
+    "ShortName": "Emptyshot",
+    "Path": "Event/Emptyshot.bnk",
+    "Media": [
+     {
+      "Id": "694059907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "empty-gun-shot-6209.wav",
+      "Path": "Media/694059907.wem",
+      "CachePath": "1D/{1DE53D9B-353B-F8E8-0E77-BC0537426C1D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2294686388",
+      "Name": "Emptyshot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Emptyshot",
+      "GUID": "{A749FE13-7410-4F6E-B3BA-5D2239F44B17}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30998638",
+      "DurationMax": "0.30998638",
+      "MediaRefs": [
+       {
+        "Id": "694059907"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9F3DA1ED-91B6-6EB3-FB76-C9D652DB6D07}"
+ }
+}
