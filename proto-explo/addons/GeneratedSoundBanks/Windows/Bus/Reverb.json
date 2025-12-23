@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "348963605",
+    "Type": "Bus",
+    "GUID": "{B14A600C-02D0-4564-9829-78D3390CC7B3}",
+    "Language": "SFX",
+    "Hash": "{DCA87B97-7A23-59CA-B47F-305909F33E9E}",
+    "ObjectPath": "Reverb",
+    "ShortName": "Reverb",
+    "Path": "Bus/Reverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2224427751",
+       "Name": "TrailShoot_Reverb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\TrailShoot_Reverb",
+       "GUID": "{BCD55C63-737C-43F9-BECC-DFAFDB975A6E}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects Audio Bus\\Reverb",
+      "GUID": "{B14A600C-02D0-4564-9829-78D3390CC7B3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2224427751"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9EA65C28-1BF9-917B-684C-4177B1AD8309}"
+ }
+}

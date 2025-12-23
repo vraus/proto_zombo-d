@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{A76EB97B-BA9A-4B35-B4C7-A85D6725898F}",
     "Language": "SFX",
-    "Hash": "{163ABCC6-EF32-4D7C-3026-C6F3EB27E628}",
+    "Hash": "{764830E1-CD67-9DF7-EA98-B9F3C18E4F28}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "60727624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SCIWeap_Energy Blaster, Single Shot, Med Reverb 1_Ocular Sounds_Futuristic Weapons_The Complete Sci-Fi Collection.wav",
+      "CachePath": "0B/{0B2DA573-9B27-4277-2681-D82066E1EE06}.wem"
+     },
      {
       "Id": "78878147",
       "Language": "SFX",
@@ -22,14 +30,6 @@
       "Location": "Memory",
       "ShortName": "FOLYFeet_Footsteps Sneakers One Step Concrete Close_Ocular Sounds_All-Round Footsteps_The Complete Foley Collection.wav",
       "CachePath": "15/{153051EE-077D-79E1-D6B2-AAF8D3CDE6A1}.wem"
-     },
-     {
-      "Id": "168304149",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SCIWeap_Magnetic Rifle, Single Shot, Med Reverb 2_Ocular Sounds_Futuristic Weapons_The Complete Sci-Fi Collection.wav",
-      "CachePath": "73/{7337B0B3-92BA-0425-36C6-2ABBAD97BB89}.wem"
      },
      {
       "Id": "219543623",
@@ -194,11 +194,19 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shoot",
       "GUID": "{BEC40016-14BD-4548-BF68-CF000369207E}",
       "DurationType": "OneShot",
-      "DurationMin": "1.3371106",
-      "DurationMax": "1.5008562",
+      "DurationMin": "0.69350344",
+      "DurationMax": "0.82471925",
       "MediaRefs": [
        {
-        "Id": "168304149"
+        "Id": "60727624"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects Audio Bus\\Reverb",
+        "GUID": "{B14A600C-02D0-4564-9829-78D3390CC7B3}"
        }
       ]
      },
@@ -240,6 +248,6 @@
     ]
    }
   ],
-  "FileHash": "{9316FAC3-6AB4-94F4-B3DB-BDC1C3E00482}"
+  "FileHash": "{69251E69-491C-BF7F-5279-FA43658C305B}"
  }
 }

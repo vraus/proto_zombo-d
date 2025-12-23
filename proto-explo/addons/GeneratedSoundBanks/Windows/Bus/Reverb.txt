@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Effects Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2224427751	TrailShoot_Reverb	Wwise Matrix Reverb			
+

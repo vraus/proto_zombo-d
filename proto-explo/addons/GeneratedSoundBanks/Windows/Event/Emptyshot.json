@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A749FE13-7410-4F6E-B3BA-5D2239F44B17}",
     "Language": "SFX",
-    "Hash": "{7C0F15C9-219A-108C-99AA-58010473DD3B}",
+    "Hash": "{5A7903DF-443D-CFE6-9B31-94C551095734}",
     "ObjectPath": "Emptyshot",
     "ShortName": "Emptyshot",
     "Path": "Event/Emptyshot.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "empty-gun-shot-6209.wav",
       "Path": "Media/694059907.wem",
-      "CachePath": "1D/{1DE53D9B-353B-F8E8-0E77-BC0537426C1D}.wem"
+      "CachePath": "20/{20D19586-36FF-CECE-D74C-A71C13936F4D}.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{9F3DA1ED-91B6-6EB3-FB76-C9D652DB6D07}"
+  "FileHash": "{F28491C1-9BF0-6DD4-8911-C18837122F3E}"
  }
 }

@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" load_steps=13 format=3 uid="uid://c1aonncprutkb"]
+[gd_resource type="WwiseProjectData" load_steps=14 format=3 uid="uid://c1aonncprutkb"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\SoundBanks\\Default Work Unit\\Main"
@@ -13,23 +13,28 @@ name = "Default Work Unit"
 id = 125608783
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wbiwk"]
-path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects Audio Bus"
-type = 2
-name = "Effects Audio Bus"
-guid = "{C651EA20-6AB5-43CC-81E6-BE2D12B3415E}"
-id = 276964149
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects Audio Bus\\Reverb"
+type = 1
+name = "Reverb"
+guid = "{B14A600C-02D0-4564-9829-78D3390CC7B3}"
+id = 348963605
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_n4jq4"]
 children = [SubResource("WwiseTreeObject_wbiwk")]
-name = "Master Audio Bus"
-id = 3803692087
+name = "Effects Audio Bus"
+id = 276964149
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2b7v5"]
 children = [SubResource("WwiseTreeObject_n4jq4")]
+name = "Master Audio Bus"
+id = 3803692087
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yty4k"]
+children = [SubResource("WwiseTreeObject_2b7v5")]
 name = "Default Work Unit"
 id = 125608783
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_yty4k"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_rq3ka"]
 max_duration = 0.30998638
 min_duration = 0.30998638
 path = "\\Events\\Default Work Unit\\Player\\Emptyshot"
@@ -38,7 +43,7 @@ name = "Emptyshot"
 guid = "{A749FE13-7410-4F6E-B3BA-5D2239F44B17}"
 id = 2294686388
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_rq3ka"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_tfk2a"]
 max_duration = 0.6
 min_duration = 0.6
 path = "\\Events\\Default Work Unit\\Player\\Overheating"
@@ -47,7 +52,7 @@ name = "Overheating"
 guid = "{0D1A16DE-FE9D-4C4B-832D-0C5DA8B62E76}"
 id = 4048013415
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_tfk2a"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_e6o1r"]
 max_duration = 0.30691713
 min_duration = 0.09223683
 path = "\\Events\\Default Work Unit\\Player\\Run"
@@ -56,16 +61,16 @@ name = "Run"
 guid = "{60412B89-EA9F-41C1-B9DD-3927284B0FA1}"
 id = 712161704
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_e6o1r"]
-max_duration = 1.5008562
-min_duration = 1.3371106
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_2v05p"]
+max_duration = 0.82471925
+min_duration = 0.69350344
 path = "\\Events\\Default Work Unit\\Player\\Shoot"
 type = 3
 name = "Shoot"
 guid = "{BEC40016-14BD-4548-BF68-CF000369207E}"
 id = 3038207054
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_2v05p"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_tmxjl"]
 max_duration = 0.32232147
 min_duration = 0.1926364
 path = "\\Events\\Default Work Unit\\Player\\Walk"
@@ -74,17 +79,17 @@ name = "Walk"
 guid = "{CA810AD1-CB17-4C70-9F3A-58CE13049459}"
 id = 2108779966
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tmxjl"]
-children = [SubResource("WwiseTreeObjectEvent_yty4k"), SubResource("WwiseTreeObjectEvent_rq3ka"), SubResource("WwiseTreeObjectEvent_tfk2a"), SubResource("WwiseTreeObjectEvent_e6o1r"), SubResource("WwiseTreeObjectEvent_2v05p")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_im43k"]
+children = [SubResource("WwiseTreeObjectEvent_rq3ka"), SubResource("WwiseTreeObjectEvent_tfk2a"), SubResource("WwiseTreeObjectEvent_e6o1r"), SubResource("WwiseTreeObjectEvent_2v05p"), SubResource("WwiseTreeObjectEvent_tmxjl")]
 name = "Player"
 id = 1069431850
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_im43k"]
-children = [SubResource("WwiseTreeObject_tmxjl")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_pgs3n"]
+children = [SubResource("WwiseTreeObject_im43k")]
 name = "Default Work Unit"
 id = 125608783
 
 [resource]
-bus_root = [SubResource("WwiseTreeObject_2b7v5")]
+bus_root = [SubResource("WwiseTreeObject_yty4k")]
 bank_root = [SubResource("WwiseTreeObject_abdhx")]
-event_root = [SubResource("WwiseTreeObject_im43k")]
+event_root = [SubResource("WwiseTreeObject_pgs3n")]
