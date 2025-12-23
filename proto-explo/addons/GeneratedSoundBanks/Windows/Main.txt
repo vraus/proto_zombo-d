@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3038207054	Shoot			\Default Work Unit\Player\Shoot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	60727624	scifi_blaster_shoot	D:\Projects\Wwise\proto_zomboid\.cache\0B\{0B2DA573-9B27-4277-2681-D82066E1EE06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\scifi_blaster_shoot		177832
+	60727624	scifi_blaster_shoot	D:\Projects\Wwise\proto_zomboid\.cache\15\{150D901C-2A6F-0BC2-441E-EF2C3875C5E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\scifi_blaster_shoot		177832
 	78878147	footstep_concrete_3	D:\Projects\Wwise\proto_zomboid\.cache\15\{153051EE-077D-79E1-D6B2-AAF8D3CDE6A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_3		23924
 	219543623	footstep_concrete_6	D:\Projects\Wwise\proto_zomboid\.cache\44\{44EE6BC8-5B83-1D98-2635-B8638690C644}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_6		20370
 	255128378	footstep_concrete_4	D:\Projects\Wwise\proto_zomboid\.cache\EA\{EA405CC0-29BA-CE4E-FD4F-EF87E082C0E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Locomotion\Walking_Random_Footstep\footstep_concrete_4		23732

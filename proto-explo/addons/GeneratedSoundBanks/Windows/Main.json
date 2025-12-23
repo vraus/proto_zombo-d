@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A76EB97B-BA9A-4B35-B4C7-A85D6725898F}",
     "Language": "SFX",
-    "Hash": "{764830E1-CD67-9DF7-EA98-B9F3C18E4F28}",
+    "Hash": "{182AACC2-1A99-0FF0-8A52-D31352F5DADE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SCIWeap_Energy Blaster, Single Shot, Med Reverb 1_Ocular Sounds_Futuristic Weapons_The Complete Sci-Fi Collection.wav",
-      "CachePath": "0B/{0B2DA573-9B27-4277-2681-D82066E1EE06}.wem"
+      "CachePath": "15/{150D901C-2A6F-0BC2-441E-EF2C3875C5E9}.wem"
      },
      {
       "Id": "78878147",
@@ -248,6 +248,6 @@
     ]
    }
   ],
-  "FileHash": "{69251E69-491C-BF7F-5279-FA43658C305B}"
+  "FileHash": "{C9AB041E-310A-6D7F-8323-68AB13661A0C}"
  }
 }

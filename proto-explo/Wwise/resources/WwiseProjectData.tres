@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" load_steps=14 format=3 uid="uid://c1aonncprutkb"]
+[gd_resource type="WwiseProjectData" load_steps=17 format=3 uid="uid://c1aonncprutkb"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\SoundBanks\\Default Work Unit\\Main"
@@ -20,8 +20,11 @@ guid = "{B14A600C-02D0-4564-9829-78D3390CC7B3}"
 id = 348963605
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_n4jq4"]
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects Audio Bus"
 children = [SubResource("WwiseTreeObject_wbiwk")]
+type = 2
 name = "Effects Audio Bus"
+guid = "{C651EA20-6AB5-43CC-81E6-BE2D12B3415E}"
 id = 276964149
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2b7v5"]
@@ -84,12 +87,37 @@ children = [SubResource("WwiseTreeObjectEvent_rq3ka"), SubResource("WwiseTreeObj
 name = "Player"
 id = 1069431850
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_pgs3n"]
-children = [SubResource("WwiseTreeObject_im43k")]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_pgs3n"]
+max_attenuation = 50.0
+max_duration = 3.1660364
+min_duration = 0.95711076
+path = "\\Events\\Default Work Unit\\Zombie\\Grunt"
+type = 3
+name = "Grunt"
+guid = "{D421A18D-39DB-4F86-A652-1A82A0AC4BF4}"
+id = 3797621065
+
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_5ewln"]
+max_attenuation = 50.0
+max_duration = 3.2546873
+min_duration = 3.2546873
+path = "\\Events\\Default Work Unit\\Zombie\\Scream"
+type = 3
+name = "Scream"
+guid = "{25D6161E-9DFC-4276-950C-7317F8544052}"
+id = 737767022
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_oeww5"]
+children = [SubResource("WwiseTreeObjectEvent_pgs3n"), SubResource("WwiseTreeObjectEvent_5ewln")]
+name = "Zombie"
+id = 1721775719
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_4djpx"]
+children = [SubResource("WwiseTreeObject_im43k"), SubResource("WwiseTreeObject_oeww5")]
 name = "Default Work Unit"
 id = 125608783
 
 [resource]
 bus_root = [SubResource("WwiseTreeObject_yty4k")]
 bank_root = [SubResource("WwiseTreeObject_abdhx")]
-event_root = [SubResource("WwiseTreeObject_pgs3n")]
+event_root = [SubResource("WwiseTreeObject_4djpx")]

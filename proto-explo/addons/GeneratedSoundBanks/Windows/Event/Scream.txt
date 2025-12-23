@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	737767022	Scream			\Default Work Unit\Zombie\Scream	
+

@@ -1,0 +1,7 @@
+[gd_resource type="WwiseEvent" format=3 uid="uid://c7rfsfpbe3hck"]
+
+[resource]
+name = "Scream"
+id = 737767022
+guid = "{25D6161E-9DFC-4276-950C-7317F8544052}"
+dummy = true

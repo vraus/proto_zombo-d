@@ -17,6 +17,8 @@ var player_path : NodePath
 var rng = RandomNumberGenerator.new()
 var enraged :bool = false
 var is_invincible :bool = false
+var can_grunt :bool = true
+var roll_grunting :float = 0.0
 
 # World UI
 @onready var health_bar: ProgressBar = $SubViewport/HealthBar
@@ -24,12 +26,16 @@ var is_invincible :bool = false
 @onready var animation_tree: AnimationTree = $AnimationTree
 # Navigation
 @onready var nav_agent = $NavigationAgent3D
+# AkEvents
+@onready var ak_event_grunt: AkEvent3D = $AkBank/AkEvent_Grunt
+@onready var ak_event_scream: AkEvent3D = $AkBank/AkEvent_Scream
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	player = GameManager.player
 	world = GameManager.world
 	_state_machine = animation_tree.get("parameters/playback")
+	roll_grunting = rng.randf_range(10.0, 30.0)
 	
 	# Roll if this Zombie is Enraged (25% chance)
 	var roll_enraged = rng.randf_range(0.0, 100.0)
@@ -39,6 +45,7 @@ func _ready() -> void:
 		health *= 4.0
 		invincibility_frame()
 		world.unraged_zombie_spawned()
+		ak_event_scream.post_event()
 		
 	health_bar.init_health(health)
 	animation_tree.set("parameters/conditions/enraged", enraged)
@@ -63,6 +70,12 @@ func _process(delta: float) -> void:
 	animation_tree.get("parameters/playback")
 	
 	move_and_slide()
+	
+	if can_grunt:
+		can_grunt = false
+		ak_event_grunt.post_event()
+		await get_tree().create_timer(roll_grunting).timeout
+		can_grunt = true
 	
 func _follow_motion_rotation(speed, delta):
 	nav_agent.set_target_position(player.global_transform.origin)

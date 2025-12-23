@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3797621065",
+    "Type": "Event",
+    "GUID": "{D421A18D-39DB-4F86-A652-1A82A0AC4BF4}",
+    "Language": "SFX",
+    "Hash": "{ACF4EAAA-D5F5-92A9-2F9E-617209CC2FD4}",
+    "ObjectPath": "Grunt",
+    "ShortName": "Grunt",
+    "Path": "Event/Grunt.bnk",
+    "Media": [
+     {
+      "Id": "69978296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "zombie-sound-357975.wav",
+      "Path": "Media/69978296.wem",
+      "CachePath": "A6/{A6C281A1-EE43-15CE-64FB-863DA23D8CB5}.wem"
+     },
+     {
+      "Id": "576680076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "zombie-sound-357975.wav",
+      "Path": "Media/576680076.wem",
+      "CachePath": "3A/{3A4F91ED-04AB-3FAB-9A2B-FB2B6BE37034}.wem"
+     },
+     {
+      "Id": "754738975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "zombie-sound-357975.wav",
+      "Path": "Media/754738975.wem",
+      "CachePath": "07/{0716B5EA-1607-CF8C-62B5-0DFE790CA97C}.wem"
+     },
+     {
+      "Id": "795300840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "zombie-sound-357975.wav",
+      "Path": "Media/795300840.wem",
+      "CachePath": "DA/{DA78E635-16A3-5A3A-D8C6-62C1CAD35EA6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3797621065",
+      "Name": "Grunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Zombie\\Grunt",
+      "GUID": "{D421A18D-39DB-4F86-A652-1A82A0AC4BF4}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95711076",
+      "DurationMax": "3.1660364",
+      "MediaRefs": [
+       {
+        "Id": "69978296"
+       },
+       {
+        "Id": "576680076"
+       },
+       {
+        "Id": "754738975"
+       },
+       {
+        "Id": "795300840"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{83FEC964-1CA6-BA7A-13D5-F9256E8E43E7}"
+ }
+}
